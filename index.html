@@ -1,363 +1,584 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nivetha S | Portfolio</title>
 
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
 
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<title>Nivetha S | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<script defer src="script.js"></script>
 
 </head>
 
 <body>
 
-<header id="hero">
+<!--================ BACKGROUND =================-->
 
-<div class="container">
+<div class="background-animation">
 
-<img id="profile-img" src="images1.jpg" alt="Nivetha S">
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+<span></span>
+
+</div>
+
+<!--================ HEADER =================-->
+
+<header>
+
+<nav>
+
+<div class="logo">
+
+NIVETHA
+
+</div>
+
+<ul class="nav-links">
+
+<li><a href="#home">Home</a></li>
+
+<li><a href="#about">About</a></li>
+
+<li><a href="#skills">Skills</a></li>
+
+<li><a href="#projects">Projects</a></li>
+
+<li><a href="#experience">Experience</a></li>
+
+<li><a href="#contact">Contact</a></li>
+
+</ul>
+
+<div class="menu-btn">
+
+<i class="fas fa-bars"></i>
+
+</div>
+
+</nav>
+
+</header>
+
+<!--================ HOME =================-->
+
+<section id="home">
+
+<div class="hero">
+
+<div class="hero-left">
+
+<img src="images1.jpg" alt="Nivetha">
+
+</div>
+
+<div class="hero-right">
+
+<h3>Hello 👋 I'm</h3>
 
 <h1>NIVETHA S</h1>
 
-<p class="tagline">
-M.Sc. Computer Science Graduate <br>
-Aspiring Data Analyst | Web Developer
+<h2>
+
+<span class="typing"></span>
+
+</h2>
+
+<p>
+
+M.Sc. Computer Science Graduate passionate about
+Data Analytics, Web Development and creating
+real-world solutions through technology.
+
 </p>
 
 <div class="hero-buttons">
 
-<a href="resume.pdf" class="btn" download>
-<i class="fas fa-download"></i> Download Resume
+<a href="resume.pdf" class="btn">
+
+<i class="fa-solid fa-download"></i>
+
+Download Resume
+
+</a>
+
+<a href="#contact" class="btn2">
+
+Contact Me
+
 </a>
 
 </div>
 
-<div class="contact-info">
-
-<p>
-<i class="fas fa-envelope"></i>
-<a href="mailto:nivethasekar0102@gmail.com">
-nivethasekar0102@gmail.com
-</a>
-</p>
-
-<p>
-<i class="fas fa-phone"></i>
-+91 9710491922
-</p>
-
-<p>
-<i class="fas fa-location-dot"></i>
-Vanur, Villupuram, Tamil Nadu
-</p>
-
-</div>
-
-</div>
-
-</header>
-<nav id="navbar">
-    <div class="container">
-        <ul>
-            <li><a href="#profile">Profile</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-</nav>
-
-<main class="container">
-
-    <!-- Profile -->
-
-    <section id="profile" class="section-block">
-
-        <h2><i class="fas fa-user-circle"></i> Profile</h2>
-
-        <p>
-            I am an enthusiastic M.Sc. Computer Science graduate with a strong
-            interest in Data Analytics and Web Development.
-            I enjoy solving real-world problems using technology and continuously
-            improving my technical skills in Python, SQL, Power BI, HTML, CSS and JavaScript.
-            I am seeking an opportunity where I can contribute, learn and grow as an IT professional.
-        </p>
-
-    </section>
-
-
-    <!-- Skills -->
-
-    <section id="skills" class="section-block">
-
-        <h2><i class="fas fa-laptop-code"></i> Technical Skills</h2>
-
-        <div class="skills-grid">
-
-            <div class="skill-category">
-
-                <h3>Core Skills</h3>
-
-                <ul>
-                    <li>Python</li>
-                    <li>SQL</li>
-                    <li>Power BI</li>
-                    <li>MS Excel</li>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>JavaScript</li>
-                    <li>Git & GitHub</li>
-                </ul>
-
-            </div>
-
-            <div class="achievements-list">
-
-                <h3>Achievements</h3>
-
-                <ul>
-                    <li>Completed IBM SkillsBuild Certifications.</li>
-                    <li>Completed IoT Internship at Presidency University.</li>
-                    <li>Completed Data Science Internship at VCodez.</li>
-                    <li>Developed a Personal Portfolio Website.</li>
-                </ul>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- Certifications -->
-
-    <section id="certifications" class="section-block">
-
-        <h2><i class="fas fa-award"></i> Certifications</h2>
-
-        <div class="achievement-item">
-            <img src="certificate1.jpg" alt="AI Certificate">
-
-            <h3>Artificial Intelligence Fundamentals</h3>
-
-            <p>
-                IBM SkillsBuild | August 2025
-            </p>
-
-        </div>
-
-        <div class="achievement-item">
-
-            <img src="certificate2.jpg" alt="Communication Certificate">
-
-            <h3>Customer Engagement – Communication & Personality Dynamics</h3>
-
-            <p>
-                IBM SkillsBuild | August 2025
-            </p>
-
-        </div>
-
-        <div class="achievement-item">
-
-            <img src="certificate3.jpg" alt="Problem Solving Certificate">
-
-            <h3>Customer Engagement – Problem Solving & Process Controls</h3>
-
-            <p>
-                IBM SkillsBuild | August 2025
-            </p>
-
-        </div>
-
-    </section>
-
-    <!-- ================= EDUCATION ================= -->
-
-<section id="education" class="section-block">
-
-    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
-
-    <div class="education-item">
-        <h3>Master of Science in Computer Science</h3>
-        <p>Theivanai Ammal College for Women | 2024 - 2026</p>
-    </div>
-
-    <div class="education-item">
-        <h3>Bachelor of Science in Computer Science</h3>
-        <p>Theivanai Ammal College for Women | 2021 - 2024</p>
-    </div>
-
-    <div class="education-item">
-        <h3>Higher Secondary Certificate (HSC)</h3>
-        <p>St. Joseph of Cluny Matriculation Hr. Sec. School | 2020</p>
-    </div>
-
-</section>
-
-
-<!-- ================= EXPERIENCE ================= -->
-
-<section id="experience" class="section-block">
-
-    <h2><i class="fas fa-briefcase"></i> Experience</h2>
-
-    <div class="education-item">
-        <h3>IoT Internship</h3>
-        <p><strong>Presidency University, Bengaluru</strong></p>
-
-        <p>
-            Worked on real-time IoT projects involving sensors,
-            smart automation, Embedded C and intelligent vehicle systems.
-        </p>
-    </div>
-
-    <div class="education-item">
-
-        <h3>Data Science Internship</h3>
-
-        <p><strong>VCodez, Chennai</strong></p>
-
-        <p>
-            Learned Data Cleaning,
-            Data Preprocessing,
-            Exploratory Data Analysis,
-            Python,
-            and Machine Learning basics.
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- ================= PROJECTS ================= -->
-
-<section id="projects" class="section-block">
-
-    <h2><i class="fas fa-code"></i> Projects</h2>
-
-    <div class="project-item">
-
-        <h3>Intelligent Vehicle Lighting and Speed Detection System</h3>
-
-        <p>
-
-            Developed an intelligent vehicle system using Embedded C and sensors
-            to automatically control vehicle headlights and detect speed,
-            improving road safety.
-
-        </p>
-
-    </div>
-
-    <div class="project-item">
-
-        <h3>Student Management System</h3>
-
-        <p>
-
-            Designed and developed a Student Management System using Java and
-            MySQL with CRUD operations.
-
-        </p>
-
-    </div>
-
-    <div class="project-item">
-
-        <h3>Personal Portfolio Website</h3>
-
-        <p>
-
-            Designed and developed a responsive portfolio website using
-            HTML, CSS and JavaScript to showcase my skills,
-            projects,
-            internships,
-            education and certifications.
-
-        </p>
-
-    </div>
-
-</section>
-
-
-<!-- ================= CONTACT ================= -->
-
-<section id="contact" class="section-block">
-
-<h2><i class="fas fa-envelope"></i> Contact</h2>
-
-<p>
-
-<strong>Email :</strong>
-
-<a href="mailto:nivethasekar0102@gmail.com">
-
-nivethasekar0102@gmail.com
-
-</a>
-
-</p>
-
-<p>
-
-<strong>Phone :</strong>
-
-+91 9710491922
-
-</p>
-
-<p>
-
-<strong>LinkedIn :</strong>
-
-<a href="https://www.linkedin.com/in/nivetha-s-93a3a7293" target="_blank">
-
-LinkedIn Profile
-
-</a>
-
-</p>
-
-<p>
-
-<strong>GitHub :</strong>
+<div class="social-icons">
 
 <a href="https://github.com/nivetha-0210" target="_blank">
 
-GitHub Portfolio
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="https://www.linkedin.com/in/nivetha-s-93a3a7293/" target="_blank">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+<a href="mailto:nivethasekar0102@gmail.com">
+
+<i class="fa-solid fa-envelope"></i>
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--================ ABOUT =================-->
+
+<section id="about">
+
+<div class="container">
+
+<h2 class="title">
+
+About Me
+
+</h2>
+
+<div class="about-card">
+
+<p>
+
+I am an enthusiastic Computer Science graduate
+with internship experience in IoT and Data Science.
+Currently learning Python, SQL, Power BI,
+HTML, CSS and JavaScript while building
+real-world projects to become a skilled
+Data Analyst and Web Developer.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+<!--================ SKILLS =================-->
+
+<section id="skills">
+
+<div class="container">
+
+<h2 class="title">
+
+My Skills
+
+</h2>
+
+<div class="skills-container">
+
+<div class="skill-card">
+
+<i class="fab fa-python"></i>
+
+<h3>Python</h3>
+
+<div class="progress">
+<div class="progress-bar python"></div>
+</div>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fas fa-database"></i>
+
+<h3>SQL</h3>
+
+<div class="progress">
+<div class="progress-bar sql"></div>
+</div>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fas fa-chart-bar"></i>
+
+<h3>Power BI</h3>
+
+<div class="progress">
+<div class="progress-bar powerbi"></div>
+</div>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fab fa-html5"></i>
+
+<h3>HTML</h3>
+
+<div class="progress">
+<div class="progress-bar html"></div>
+</div>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fab fa-css3-alt"></i>
+
+<h3>CSS</h3>
+
+<div class="progress">
+<div class="progress-bar css"></div>
+</div>
+
+</div>
+
+<div class="skill-card">
+
+<i class="fab fa-js-square"></i>
+
+<h3>JavaScript</h3>
+
+<div class="progress">
+<div class="progress-bar js"></div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--================ CERTIFICATIONS =================-->
+
+<section id="certifications">
+
+<div class="container">
+
+<h2 class="title">
+
+Certificates
+
+</h2>
+
+<div class="certificate-grid">
+
+<div class="certificate-card">
+
+<img src="certificate1.jpg" alt="Certificate">
+
+<h3>Artificial Intelligence Fundamentals</h3>
+
+<p>IBM SkillsBuild</p>
+
+</div>
+
+<div class="certificate-card">
+
+<img src="certificate2.jpg" alt="Certificate">
+
+<h3>Communication & Personality Dynamics</h3>
+
+<p>IBM SkillsBuild</p>
+
+</div>
+
+<div class="certificate-card">
+
+<img src="certificate3.jpg" alt="Certificate">
+
+<h3>Problem Solving & Process Controls</h3>
+
+<p>IBM SkillsBuild</p>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--================ EDUCATION =================-->
+
+<section id="education">
+
+<div class="container">
+
+<h2 class="title">
+
+Education
+
+</h2>
+
+<div class="timeline">
+
+<div class="timeline-item">
+
+<h3>M.Sc Computer Science</h3>
+
+<p>Theivanai Ammal College for Women</p>
+
+<span>2024 - 2026</span>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>B.Sc Computer Science</h3>
+
+<p>Theivanai Ammal College for Women</p>
+
+<span>2021 - 2024</span>
+
+</div>
+
+<div class="timeline-item">
+
+<h3>Higher Secondary (HSC)</h3>
+
+<p>St. Joseph of Cluny Hr. Sec. School</p>
+
+<span>2020</span>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--================ EXPERIENCE =================-->
+
+<section id="experience">
+
+<div class="container">
+
+<h2 class="title">
+
+Experience
+
+</h2>
+
+<div class="experience-card">
+
+<h3>IoT Internship</h3>
+
+<h4>Presidency University, Bengaluru</h4>
+
+<p>
+
+Worked on Intelligent Vehicle Lighting and Speed Detection System using Embedded C, sensors and IoT concepts.
+
+</p>
+
+</div>
+
+<div class="experience-card">
+
+<h3>Data Science Internship</h3>
+
+<h4>VCodez, Chennai</h4>
+
+<p>
+
+Learned Data Cleaning, Data Preprocessing, Exploratory Data Analysis, Python and Machine Learning basics.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+<!--================ PROJECTS =================-->
+
+<section id="projects">
+
+<div class="container">
+
+<h2 class="title">
+
+My Projects
+
+</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+
+<i class="fas fa-car"></i>
+
+<h3>Intelligent Vehicle Lighting & Speed Detection</h3>
+
+<p>
+
+Developed an IoT based smart vehicle lighting system using Embedded C and sensors to improve road safety.
+
+</p>
+
+<a href="#" class="project-btn">View Project</a>
+
+</div>
+
+<div class="project-card">
+
+<i class="fas fa-user-graduate"></i>
+
+<h3>Student Management System</h3>
+
+<p>
+
+Built a Java & MySQL based application to manage student records with CRUD operations.
+
+</p>
+
+<a href="#" class="project-btn">View Project</a>
+
+</div>
+
+<div class="project-card">
+
+<i class="fas fa-laptop-code"></i>
+
+<h3>Personal Portfolio Website</h3>
+
+<p>
+
+Designed and developed a responsive portfolio website using HTML, CSS and JavaScript.
+
+</p>
+
+<a href="https://nivetha-0210.github.io/nivethaportfolio/" target="_blank" class="project-btn">
+
+Live Demo
+
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--================ CONTACT =================-->
+
+<section id="contact">
+
+<div class="container">
+
+<h2 class="title">
+
+Contact Me
+
+</h2>
+
+<div class="contact-box">
+
+<p>
+
+<i class="fas fa-envelope"></i>
+
+<a href="mailto:nivethasekar0102@gmail.com">
+
+nivethasekar0102@gmail.com
 
 </a>
 
 </p>
 
-</section>
-
-</main>
-
-<!-- ================= FOOTER ================= -->
-
-<footer>
-
-<div class="container">
-
 <p>
 
-&copy; 2025 Nivetha S. All Rights Reserved.
+<i class="fas fa-phone"></i>
+
++91 9710491922
 
 </p>
 
+<p>
+
+<i class="fas fa-location-dot"></i>
+
+Vanur, Villupuram, Tamil Nadu
+
+</p>
+
+<div class="social-icons">
+
+<a href="https://github.com/nivetha-0210" target="_blank">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="https://www.linkedin.com/in/nivetha-s-93a3a7293/" target="_blank">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+<a href="mailto:nivethasekar0102@gmail.com">
+
+<i class="fas fa-envelope"></i>
+
+</a>
+
 </div>
+
+</div>
+
+</div>
+
+</section>
+
+<!--================ BACK TO TOP =================-->
+
+<button id="topBtn">
+
+<i class="fas fa-arrow-up"></i>
+
+</button>
+
+<!--================ FOOTER =================-->
+
+<footer>
+
+<p>
+
+© 2025 Nivetha S | Designed with ❤️ using HTML, CSS & JavaScript
+
+</p>
 
 </footer>
 
