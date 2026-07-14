@@ -149,126 +149,96 @@ color:#38bdf8;
 
 }
 
-/*========================================
-HERO
-=========================================*/
+/* ===== HERO SECTION ===== */
 
-#home{
+#hero{
+    background: linear-gradient(-45deg,#0f172a,#1e3a8a,#2563eb,#38bdf8);
+    background-size:400% 400%;
+    animation:gradientBG 10s ease infinite;
+    color:white;
+    text-align:center;
+    padding:90px 20px;
+}
 
-min-height:100vh;
-display:flex;
-align-items:center;
-justify-content:center;
-padding:120px 10%;
+@keyframes gradientBG{
+
+0%{
+background-position:0% 50%;
+}
+
+50%{
+background-position:100% 50%;
+}
+
+100%{
+background-position:0% 50%;
+}
 
 }
 
-.hero{
-
-display:flex;
-justify-content:space-between;
-align-items:center;
-gap:60px;
-flex-wrap:wrap;
-
+#profile-img{
+    width:230px;
+    height:230px;
+    border-radius:50%;
+    object-fit:cover;
+    border:8px solid white;
+    box-shadow:0 0 40px rgba(255,255,255,.5);
+    transition:.5s;
 }
 
-.hero-left img{
-
-width:320px;
-height:320px;
-border-radius:50%;
-border:8px solid #38bdf8;
-box-shadow:0 0 40px rgba(56,189,248,.5);
-transition:.5s;
-
+#profile-img:hover{
+    transform:scale(1.08) rotate(3deg);
 }
 
-.hero-left img:hover{
-
-transform:scale(1.05);
-
+#hero h1{
+    font-size:60px;
+    margin-top:30px;
+    font-weight:700;
+    animation:fadeDown 1s ease;
 }
 
-.hero-right{
-
-max-width:600px;
-
+.tagline{
+    font-size:28px;
+    margin-top:15px;
+    color:#e2e8f0;
+    line-height:1.6;
 }
 
-.hero-right h3{
+@keyframes fadeDown{
 
-font-size:24px;
-
+from{
+opacity:0;
+transform:translateY(-40px);
 }
 
-.hero-right h1{
-
-font-size:60px;
-margin:10px 0;
-color:#38bdf8;
-
+to{
+opacity:1;
+transform:translateY(0);
 }
-
-.hero-right h2{
-
-font-size:30px;
-margin-bottom:20px;
-
-}
-
-.hero-right p{
-
-line-height:1.8;
-margin-bottom:30px;
-font-size:17px;
 
 }
 
 .hero-buttons{
-
-display:flex;
-gap:20px;
-flex-wrap:wrap;
-
+    margin-top:35px;
 }
 
 .btn{
-
-background:#38bdf8;
-color:#fff;
-padding:15px 35px;
-border-radius:40px;
-text-decoration:none;
-font-weight:600;
-transition:.3s;
-
+    display:inline-block;
+    background:white;
+    color:#1e3a8a;
+    padding:16px 38px;
+    border-radius:50px;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:600;
+    transition:.4s;
 }
 
 .btn:hover{
-
-background:#0ea5e9;
-transform:translateY(-5px);
-
-}
-
-.btn2{
-
-background:transparent;
-border:2px solid #38bdf8;
-padding:15px 35px;
-border-radius:40px;
-color:#38bdf8;
-text-decoration:none;
-transition:.3s;
-
-}
-
-.btn2:hover{
-
-background:#38bdf8;
-color:white;
-
+    transform:translateY(-5px);
+    background:#38bdf8;
+    color:white;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
 }
 /*========================================
 COMMON SECTION
